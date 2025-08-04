@@ -34,13 +34,17 @@ Write-Host DayOfWeek:(Get-Date).DayOfWeek
 Write-Host DayOfYear:(Get-Date).DayOfYear
 Write-Host -DisplayHint Date:
 (Get-Date -DisplayHint Date)
+```
+
 
 Usage_2
 ```powershell
 Write-Host "Get-Date "2020-01-01T00:00:00"":
 Get-Date "2020-01-01T00:00:00"
+```
 
 demo:Create a timestamp
 ```powershell
 $TimeStamp=(Get-Date -Format FileDate)
 New-Item -Path . -Name "TEST$TimeStamp.txt" -ItemType "File" -Value "This is a TEST."
+```
