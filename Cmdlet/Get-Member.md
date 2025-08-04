@@ -1,4 +1,4 @@
-#Get-Member
+# Get-Member
 
 Synopsis:  
 Gets the properties and methods of objects
