@@ -12,7 +12,7 @@ Key Parameters:
 1. -Definition
 2. -Name  
    specifics the target alias  
-3. -Exclude
+3. -Exclude  
    excludes some results that matchs some certain conditions
    
    

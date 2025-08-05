@@ -27,10 +27,10 @@ Output Example
 
 
 Key Parameters
-1. -InputObject
+1. -InputObject  
 2. -Name  
    specifies the target member of an object  
-3. -MemberType
+3. -MemberType  
    specifies the MemberType of outputs, defautly be "ALL"    
    acceptable values: Property, Method, Event...  
 
