@@ -9,7 +9,7 @@ ps: "varible" contains "name" and "value"
 Key Parameters
 1. -Name  
    specifics the target variable  
-2. -ValueOnly<br>  
+2. -ValueOnly  
    only retrieve the value of a variable
 3. -Include, -Exclude   
 
