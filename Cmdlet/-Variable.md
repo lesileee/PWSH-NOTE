@@ -1,4 +1,36 @@
-# Set-Variable
+# *-Variable
+Comlets included: Get-Variable, Set-Variable, Clear-Variable, Remove-Variable  
+
+
+
+
+## Get-Variable
+
+Synopsis:
+retrieve variables in the current session  
+
+ps: "varible" contains "name" and "value"  
+
+
+Key Parameters
+1. -Name  
+   specifics the target variable  
+2. -ValueOnly  
+   only retrieve the value of a variable
+3. -Include, -Exclude   
+
+
+Notice:  
+The output of Get-Variable is usually piped into other Comlets  
+
+demo_1
+```powershell
+$tmp=1
+Get-Variable -Name test -ValueOnly
+#output:1
+```
+
+## Set-Variable
 
 Synopsis:
 Set the value of a variable  
@@ -25,3 +57,21 @@ demo_1
 ```powershell
 set-variable name=test value=1 -passthru 
 ```
+
+## Clear-Variable
+
+Synopsis:  
+Deletes the value of a variable  
+
+
+
+## Remove-Variable
+
+Synopsis:  
+Deletes a variable, including its value  
+
+
+
+### NOTICE
+For Set-Variable, Remove-Variable and Clear-Variable, given consider that a variable maight be set as "ReadOnly",
+it's recommanded to always use the "-Force" parameter to ensure a successful operation.
