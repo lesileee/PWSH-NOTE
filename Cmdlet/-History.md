@@ -1,6 +1,6 @@
 # *-History
+Comlets include: Get-History, Invoke-History
 
-"History" here refers to the Comlet entry history
 
 ## Get-History
 
@@ -8,9 +8,10 @@
 Gets a list of the commands entered during the current session  
 
 ### Heads up:
-During a session, the system will automatically gives every commmand you enter a special ID;  
-Starting from '1' in a ascending order;  
-Thus to distinguish several indentical commands entered at different time point.  
+1. "History" here refers to the Comlet entry history.  
+2. During a session, the system will automatically gives every commmand you enter a special ID;  
+   Starting from '1' in a ascending order;  
+   Thus to distinguish several indentical commands entered at different time point.  
 
 ### Key Parameters:  
 1. -Count  
