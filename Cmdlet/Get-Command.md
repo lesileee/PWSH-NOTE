@@ -27,9 +27,9 @@ Key Parameters
 demo_1:alias<->name
 ```powershell
 Write-Host alias->name:
-Get-Alias -Name dir
-Write-Host alias->name:
 Get-Command -Name dir
+Write-Host name->alias:
+Get-Alias -Definition Get-Location
 ```
 
 demo_2:Reader-Friendly Output of Get-Command
