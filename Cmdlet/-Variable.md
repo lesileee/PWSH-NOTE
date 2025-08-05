@@ -19,9 +19,7 @@ ps: "varible" contains "name" and "value"
    only retrieve the value of a variable
 3. -Include, -Exclude   
 
-
-Notice:  
-The output of Get-Variable is usually piped into other Comlets  
+  
 
 
 
@@ -65,9 +63,9 @@ Deletes a variable, including its value
 
 
 ## NOTICE
-For Set-Variable, Remove-Variable and Clear-Variable, given consider that a variable maight be set as "ReadOnly",
+1. For Set-Variable, Remove-Variable and Clear-Variable, given consider that a variable maight be set as "ReadOnly",
 it's recommanded to always use the "-Force" parameter to ensure a successful operation.
-
+2. The output of Get-Variable is usually piped into other Comlets.
 
 ## Demo
 demo_1  
