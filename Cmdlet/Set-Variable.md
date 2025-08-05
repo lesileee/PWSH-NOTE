@@ -16,7 +16,7 @@ Key-Parameters
    You can take it as a demand for feeback, under the circumstances that this Comlet does not generate any output defautly 
 4. -Option
    Specifies the value of the Options property of the variable  
-   NOtice: An option of a variable can only be set when the variable is created
+   NOtice: An option of a variable can only be set when the variable is created  
    acceptable values:  
    None: Sets no options,default
    ReadOnly: Can be deleted but Cannot be changed
