@@ -17,5 +17,9 @@ Key Parameters
 Notice:  
 The output of Get-Variable is usually piped into other Comlets  
 
-
-
+demo_1
+```powershell
+$tmp=1
+Get-Variable -Name test -ValueOnly
+#output:1
+```
