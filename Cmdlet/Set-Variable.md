@@ -16,12 +16,12 @@ Key-Parameters
    You can take it as a demand for feeback, under the circumstances that this Comlet does not generate any output defautly 
 4. -Option
    Specifies the value of the Options property of the variable  
-   NOtice: An option of a variable can only be set when the variable is created  
+   Notice: An option of a variable can only be set when the variable is created  
    acceptable values:  
-   None: Sets no options,default
-   ReadOnly: Can be deleted but Cannot be changed
-   Constant: Cannot be deleted or changed. 
-   Private: The variable is available only in the current scope.
+   None: Sets no options,default  
+   ReadOnly: Can be deleted but Cannot be changed  
+   Constant: Cannot be deleted or changed  
+   Private: The variable is available only in the current scope  
    AllScope: The variable is copied to any new scopes that are created.
 5. -Force
    disregard a valiable's option
