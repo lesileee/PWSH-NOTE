@@ -23,7 +23,7 @@ Measure-Command {Get-Date}
 ```
 demo_2
 ```PowerShell
-# Pipe objects to Measure-Command for the use of "Expression"  
+# Pipe objects to Measure-Command for the use of "-Expression"  
 10, 20, 50 | Measure-Command -Expression {for ($i=0; $i -lt $_; $i++) {$i}}
 ```
 demo_3
