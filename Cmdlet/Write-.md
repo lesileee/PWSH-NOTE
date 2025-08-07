@@ -1,5 +1,5 @@
 # Write-*
-
+Comlets included: Write-Warning, Write-Host, Write-Output
 
 ## Write-Host
 
@@ -37,7 +37,7 @@ The response to the warning depends on the value of the user's '$WarningPreferen
 
 
 ## Notice
-1. The biggest difference between Write-Host and Write-Output is that the output of Write-Output can be sent to pipeline while the output of Write-Host can not. ^
+1. The biggest difference between Write-Host and Write-Output is that the output of Write-Output can be sent to pipeline while the output of Write-Host can not. 
 The only destination of Write-Host is the host, as it is named.
 
 ## Demo
