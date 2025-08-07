@@ -15,7 +15,7 @@ Sorts objects by property values.
    •For example, "-Bottom 3" will output 5 records counting from the bottom.  
 4. -Stable
    •Sorted objects will be delivered in the order they were received when their criteria of sorting are equal.
-5. -CaseSensitive
+5. -CaseSensitive  
    •By default, sorts aren't case-sensitive.  
 6. -Unique  
    Remove all the repeated members.  
