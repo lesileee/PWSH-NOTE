@@ -1,8 +1,9 @@
 # *-LocalUser  
 
-Comlets included: Get-LocalUser, New-LocalUser, Set-LocalUser, Remove-LocalUser,  
-                  Enable-LocalUser, Disable-LocalUser  
-				  Add-LocalGroupMember, Remove-LocalGroupMember   
+Comlets included:   
+1. Get-LocalUser, New-LocalUser, Set-LocalUser, Remove-LocalUser  
+2. Enable-LocalUser, Disable-LocalUser  
+3. Add-LocalGroupMember, Remove-LocalGroupMember   
 				  
 ## Heads-up  
 
