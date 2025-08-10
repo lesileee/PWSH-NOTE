@@ -92,7 +92,7 @@ Add members to a local group.
 2. -Member    
 
 
-## Add-LocalGroupMember  
+## Remove-LocalGroupMember  
 
 ### Synopsis:  
 Remove members from a local group.  
